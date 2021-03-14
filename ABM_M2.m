@@ -1,13 +1,13 @@
 function [result] = ABM_M2 ( A , B , m)
 
-	result = int32(0); 
+    result = int32(0); 
     A = int32(A);
-	B = int32(B);
+    B = int32(B);
 	b2m1 = 0;
     ajm1 = 0;
     N = 16;
     
-    for i = 0:2:N-1
+    for i = 0 : 2 : N-1
         
 		b2 = bitget(B,bin_index(i),'int32');
 		b2p1 = bitget(B,bin_index(i+1),'int32');
