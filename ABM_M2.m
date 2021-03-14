@@ -3,9 +3,10 @@ function [result] = ABM_M2 ( A , B , m)
 	result = int32(0); 
     A = int32(A);
 	B = int32(B);
+	N = 16;
 	b2m1 = 0;
     ajm1 = 0;
-    N = 16;
+    
     
     for i = 0:2:N-1
         
