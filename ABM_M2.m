@@ -1,4 +1,4 @@
-function [result] = ABM_M2( A , B , m)
+function [result] = ABM_M2( A , B , m )
 
 	result = int32(0); 
     A = int32(A);
