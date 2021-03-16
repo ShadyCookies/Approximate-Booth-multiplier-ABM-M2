@@ -20,7 +20,7 @@ function [result] = ABM_M2( A , B , m )
             ajm1 = aj;
         end  
             
-        if m > 0								% Truncation of partial product row by m bits and replacing it with a single approximated bit
+        if m > 0								% Truncation of partial product row by m bits & replacing it with a single approximated bit
             a_sum = sum(pp_row(1:m));
             if (a_sum > m / 2) aj = 1 ;
             else aj = 0;
