@@ -16,7 +16,7 @@ function [result] = ABM_M2( A , B , m )
         
         for j = 1:N+1							% Generation of accurate partial product row
             aj = bitget(A,j);
-            pp_row(j) = PPG( aj , ajm1 , b2p1 , b2 , b2m1 );
+            pp_row(j) = PPG(aj , ajm1 , b2p1 , b2 , b2m1);
             ajm1 = aj;
         end  
             
